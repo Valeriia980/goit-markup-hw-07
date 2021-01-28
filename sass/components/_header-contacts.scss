@@ -28,7 +28,7 @@
   fill: currentColor;
   transition-property: color;
   font-weight: 500;
-  font-size: 14px;
+  font-size: $main-font-size;
   line-height: 1.14;
   text-decoration: none;
   transition: 250ms;
@@ -43,7 +43,7 @@
 }
 .contacts {
   display: flex;
-  font-size: 14px;
+  font-size: $main-font-size;
   margin-left: auto;
   align-items: center;
 }

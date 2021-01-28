@@ -13,9 +13,9 @@
 .tittle-clients {
   margin-bottom: 50px;
   text-align: center;
-  font-size: 36px;
+  font-size: $main-font-size;
   line-height: 42px;
-  letter-spacing: 0.03em;
+  letter-spacing: $main-letter-spacing;
 }
 
 .clients-list-link {

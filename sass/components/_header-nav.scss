@@ -1,5 +1,5 @@
 .header {
-  background-color: $primary-bgr;
+  background-color: #ffffff;
 }
 .header-container {
   display: flex;
@@ -11,7 +11,7 @@
   padding-bottom: 32px;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: $main-font-size;
   line-height: 16px;
   letter-spacing: 0.02em;
 }
@@ -33,7 +33,7 @@
   padding-bottom: 32px;
   display: inline-flex;
   font-weight: 500;
-  font-size: 14px;
+  font-size: $main-font-size;
   line-height: 16px;
   letter-spacing: 0.02em;
   &:hover,

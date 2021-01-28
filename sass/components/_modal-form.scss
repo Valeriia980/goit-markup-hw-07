@@ -27,18 +27,18 @@
   padding: 12px 16px;
   margin-top: 4px;
 }
-.text-form {
-  color: $primary-text-color;
-  font-size: 12px;
-  line-height: 1.16;
-  margin-bottom: 4px;
-}
 .name-label {
-  margin-bottom: 10px;
-  display: block;
+  margin-bottom: 4px;
+  color: $primary-text-color;
+  line-height: 1, 16;
+  font-size: 12px;
 }
 .form-data {
+  display: flex;
   position: relative;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  flex-direction: column;
 }
 .condition-input-hidden:focus {
   background: $button-link-color;

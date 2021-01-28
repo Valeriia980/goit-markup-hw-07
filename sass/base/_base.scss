@@ -18,6 +18,10 @@ h3 {
   margin-top: 0;
   margin-bottom: 0;
 }
+h2,
+h3 {
+  color: $title-text-color;
+}
 body {
   background-color: $primary-bgr;
   color: $primary-text-color;

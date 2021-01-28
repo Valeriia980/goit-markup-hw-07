@@ -1,9 +1,8 @@
 .conditions {
-  margin-bottom: 30px;
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
-
 .condition-input-hidden ~ span::before {
   content: "";
   display: inline-flex;

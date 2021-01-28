@@ -1,0 +1,43 @@
+.portfolio {
+  border-bottom: 1px solid #ececec;
+}
+.filter {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;
+
+  height: 54px;
+}
+.filter-buttons > .button-next:not(:last-child) {
+  margin-right: 8px;
+}
+.filter-button {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  border-style: none;
+  outline: none;
+  text-align: center;
+  font-family: $main-font-family;
+  color: $title-text-color;
+  background-color: $section-bgc;
+  padding: 6px 22px;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, background-color, filter;
+}
+
+.filter-button:focus,
+.filter-button:hover,
+.all {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  color: $main-text-color;
+  background-color: $button-link-color;
+}
